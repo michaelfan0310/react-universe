@@ -1,3 +1,5 @@
+// eslint-disable-next-line
+
 import React, {useState} from "react";
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import Button from 'react-bootstrap/Button';

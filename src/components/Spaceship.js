@@ -5,7 +5,7 @@ import './Spaceship.css';
 function Spaceship(){
 
     return (<div>
-    <img src="images/spaceship1.png" 
+    <img src="/images/spaceship1.png" 
          alt="spaceShip" 
          width="20%" 
          id="spaceShip" />
