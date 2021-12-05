@@ -1,0 +1,8 @@
+#today{
+  font-family:  Cambria,cursive;;
+  font-size: 2.2rem;
+}
+.main-date{
+  position: relative;
+  margin-top: -37%;
+}

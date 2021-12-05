@@ -1,0 +1,81 @@
+/* 
+#clock {    
+    margin-top: 3%;
+    height:240px;
+    font-size: 13rem;
+    font-family: arial;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(216, 91, 53, 0.493); */
+
+#greeting{
+  position:relative;
+  margin-top: 11%;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Cambria,cursive;  
+  font-size: 5rem;
+  font-weight: 800;
+  color:rgba(122, 52, 6, 0.178);
+  text-shadow: 0px 2px #e730238c;   
+}
+/* h2 {
+	text-align:center;
+    text-shadow: 2px 2px rgba(8, 48, 8, 0.336);
+} */
+
+
+
+.bigger {
+    font-weight:bold;
+    font-size: 18px;
+}
+@media only screen and (max-width: 1024px){
+
+#clock {
+    margin-top: 26%;
+    height:10px;
+    font-size: 150px;
+    font-family: arial;
+    font-weight: bolder ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(6, 240, 6, 0);
+}
+
+}
+
+@media only screen and (max-width: 550px){
+
+#clock {
+    margin-top: 26%;
+    height:10px;
+    font-size: 120px;
+    font-family: arial;
+    font-weight: bolder ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(6, 240, 6, 0);
+}
+
+}
+@media only screen and (max-width: 400px){
+
+#clock {
+    margin-top: 26%;
+    height:10px;
+    font-size: 35px;
+    font-family: arial;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(6, 240, 6, 0);
+}
+
+}

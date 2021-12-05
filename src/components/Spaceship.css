@@ -1,0 +1,154 @@
+#spaceShip {
+    position: absolute;
+    margin-top: -35%;
+    
+    z-index: 4;
+        animation: animateShip 60s linear infinite;
+}
+
+@keyframes animateShip {
+    0% { 
+        margin-top: -29.8%;       
+        margin-left: -65%;
+        transform: rotateX(90deg);
+        transform: rotateY(85deg);
+    }
+    25% {   
+        margin-top: -35.5%;     
+        margin-left: -38%;
+        transform: rotateX(30deg);
+        transform: rotateY(25deg);
+    }
+    50% {margin-top: -41.5%; 
+         margin-left: -21%;
+         transform: rotateX(0deg);
+        transform: rotateY(0deg);
+    }
+    66% {
+        margin-top: -37.5%;     
+        margin-left: -4%;
+         transform: rotateX(3deg);
+        transform: rotateY(3deg);
+    }
+    75% {
+        margin-top: -33.5%;     
+        margin-left: 13%;
+         transform: rotateX(20deg);
+        transform: rotateY(25deg);
+    }
+    90% { 
+        margin-top: -30.5%;        
+        margin-left: 30%;
+         transform: rotateX(35deg);
+        transform: rotateY(30deg);
+    }
+
+        100% { 
+        margin-top: -27.5%;        
+        margin-left: 45%;
+         transform: rotateX(70deg);
+        transform: rotateY(60deg);
+    }
+}
+
+#spaceShip5 {
+    position: absolute;
+    z-index: 3;
+    margin-top: -20%;
+    margin-right: -45%;
+    
+    
+    animation: orbit 60s linear infinite;
+}
+
+.orbit {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* border: 1px solid rgba(255, 255, 255, 0.2); */
+    border-radius: 50%;
+    transform-style: preserve-3d;
+    animation-name: orbit;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; }
+
+.orbit .orbit {
+    animation-name: suborbit; }
+
+.spaceShip6 {
+    position: fixed;
+    z-index: 100;
+    top: 70%;
+    right: 8%;
+    width: 3%;
+}
+
+
+@keyframes orbit {
+    0% {
+      transform: rotateZ(0deg); }
+  
+    100% {
+      transform: rotateZ(-360deg); } }
+
+@keyframes suborbit {
+    0% {
+      transform: rotateX(90deg) rotateZ(0deg); }
+  
+    100% {
+      transform: rotateX(90deg) rotateZ(-360deg); } }  
+
+
+@media only screen and (max-width: 1024px){
+     #spaceShip {
+    position: absolute;
+    margin-top: -73.5%;
+    
+    z-index: 4;
+        animation: animateShip1024 60s linear infinite;
+}
+@keyframes animateShip1024 {
+    0% { 
+        margin-top: -45.5%;       
+        margin-left: -65%;
+        transform: rotateX(90deg);
+        transform: rotateY(85deg);
+    }
+    25% {   
+        margin-top: -49.5%;     
+        margin-left: -38%;
+        transform: rotateX(30deg);
+        transform: rotateY(25deg);
+    }
+    50% {margin-top: -55.5%; 
+         margin-left: -21%;
+         transform: rotateX(0deg);
+        transform: rotateY(0deg);
+    }
+    66% {
+        margin-top: -52.5%;     
+        margin-left: -4%;
+         transform: rotateX(3deg);
+        transform: rotateY(3deg);
+    }
+    75% {
+        margin-top: -49.5%;     
+        margin-left: 13%;
+         transform: rotateX(20deg);
+        transform: rotateY(25deg);
+    }
+    90% { 
+        margin-top: -45.5%;        
+        margin-left: 30%;
+         transform: rotateX(35deg);
+        transform: rotateY(30deg);
+    }
+
+        100% { 
+        margin-top: -43.5%;        
+        margin-left: 45%;
+         transform: rotateX(70deg);
+        transform: rotateY(60deg);
+    }
+}
+}

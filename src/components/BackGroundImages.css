@@ -1,0 +1,47 @@
+.extra1, .extra2, .extra3, .extra3::after, .extra4, .extra4::after {
+	position: absolute;
+}
+
+.extra1 {
+	z-index: -1;
+	top: 0;
+	left: 0;
+	width: 100%;
+	/* height: 101%; */
+	}
+
+.extra2 {
+	z-index: -1;
+	top: 101%;
+	left: 0;
+	width: 100%;
+	height: 107%;
+	}
+
+.extra3 {
+	
+	z-index: -1;
+	top: 208%;
+	left: 0;
+	width: 100%;
+	height: 101%;
+	}
+
+/* .extra3::after {
+	display: block;
+	content: " ";
+	background: url(image/fish_bottom2.gif) no-repeat;
+	z-index: 3;
+	top: 2250px;
+	width: 165px;
+	height:110px;
+	
+	} */
+
+.extra4 {
+	z-index: -1;
+	top: 310%;
+	left: 0;
+	width: 100%;
+	height: 104%;
+	}

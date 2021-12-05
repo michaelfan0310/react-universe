@@ -1,0 +1,17 @@
+
+
+
+.slide1{
+    position: relative;
+    margin-top: -26%;
+    
+}
+
+.carousel-control-next-icon,
+ .carousel-control-prev-icon,
+  .carousel-indicators{
+    position: absolute;
+    z-index: -10;
+    display:unset;
+    color: rgb(0, 0, 0);
+}
