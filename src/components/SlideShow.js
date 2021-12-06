@@ -17,7 +17,8 @@ function SlideShow(){
       src="images/cover11.jpg"
       alt="cover"
       
-       width="390"
+        width="590"
+    
       height="290"      
     />
     {/* <Carousel.Caption>
@@ -34,7 +35,8 @@ function SlideShow(){
       src="images/cover6.png"
       alt=""
       
-       width="390"
+        width="590"
+    
       height="290"    
     />  
   </Carousel.Item>
@@ -45,7 +47,8 @@ function SlideShow(){
       src="images/cover5.jpg"
       alt="Third slide"
        
-       width="390"
+        width="590"
+    
       height="290" 
           
     />   
@@ -57,7 +60,8 @@ function SlideShow(){
       src="images/cover7.jpg"
       alt=""
       
-       width="390"
+        width="590"
+    
       height="290"      
     />   
   </Carousel.Item>
@@ -67,7 +71,8 @@ function SlideShow(){
       src="images/cover15.jpg"
       alt=""
       
-       width="390"
+        width="590"
+    
       height="290"    
     />  
   </Carousel.Item>
@@ -77,7 +82,8 @@ function SlideShow(){
       src="images/cover16.jpg"
       alt=""
       
-       width="390"
+        width="590"
+    
       height="290"    
     />  
   </Carousel.Item>
