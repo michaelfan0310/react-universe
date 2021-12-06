@@ -11,10 +11,10 @@ function SlideShow(){
      return (<div>
 <Carousel fade className="slide1">
   
-  <Carousel.Item interval={1500}>
+  <Carousel.Item interval={2500}>
     <img
       className="d-block-center w-40"     
-      src={slides[0]}
+      src="images/cover6.jpg"
       alt="cover"
       height="290"       
     />
@@ -26,32 +26,53 @@ function SlideShow(){
 
   
 
- <Carousel.Item interval={1000}>
+ <Carousel.Item interval={2000}>
     <img
       className="d-block-center w-40"
-      src="images/cover4.jpg"
+      src="images/cover6.jpg"
       alt=""
       height="290"    
     />  
   </Carousel.Item>
 
-  <Carousel.Item interval={500}>
+  <Carousel.Item interval={1500}>
     <img
       className="d-block-center w-40"
       src="images/cover5.jpg"
       alt="Third slide"
-      height="290"      
+      height="290" 
+      width="360"     
     />   
   </Carousel.Item>
 
-  <Carousel.Item>
+  <Carousel.Item interval={1000}>
     <img
       className="d-block-center w-40"
       src="images/cover7.jpg"
       alt=""
+      width="360"
       height="290"      
     />   
   </Carousel.Item>
+  <Carousel.Item interval={500}>
+    <img
+      className="d-block-center w-40"
+      src="images/cover15.jpg"
+      alt=""
+      width="360"
+      height="290"    
+    />  
+  </Carousel.Item>
+   <Carousel.Item >
+    <img
+      className="d-block-center w-40"
+      src="images/cover16.jpg"
+      alt=""
+      width="360"
+      height="290"    
+    />  
+  </Carousel.Item>
+
   </Carousel> 
   </div>);}
 

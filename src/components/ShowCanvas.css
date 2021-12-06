@@ -10,7 +10,7 @@
     top: 105%;
     left: 0;
     z-index: 13;
-    /* background-color:aquamarine(48, 145, 129); */
+    background-color:aquamarine(48, 145, 129);
 }
 @media only screen and (max-width: 1024px){
 #mycanvas {
