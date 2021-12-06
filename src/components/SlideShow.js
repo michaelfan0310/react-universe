@@ -14,9 +14,10 @@ function SlideShow(){
   <Carousel.Item interval={2500}>
     <img
       className="d-block-center w-40"     
-      src="images/cover6.jpg"
+      src="images/cover11.jpg"
       alt="cover"
-      height="290"       
+      width="390"
+      height="290"      
     />
     {/* <Carousel.Caption>
       <h3>First slide label</h3>
