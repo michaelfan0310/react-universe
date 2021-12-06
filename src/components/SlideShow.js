@@ -29,8 +29,9 @@ function SlideShow(){
  <Carousel.Item interval={2000}>
     <img
       className="d-block-center w-40"
-      src="images/cover6.jpg"
+      src="images/cover6.png"
       alt=""
+      width="390"
       height="290"    
     />  
   </Carousel.Item>
@@ -40,8 +41,9 @@ function SlideShow(){
       className="d-block-center w-40"
       src="images/cover5.jpg"
       alt="Third slide"
+      width="390" 
       height="290" 
-      width="360"     
+          
     />   
   </Carousel.Item>
 
@@ -50,7 +52,7 @@ function SlideShow(){
       className="d-block-center w-40"
       src="images/cover7.jpg"
       alt=""
-      width="360"
+      width="390"
       height="290"      
     />   
   </Carousel.Item>
@@ -59,7 +61,7 @@ function SlideShow(){
       className="d-block-center w-40"
       src="images/cover15.jpg"
       alt=""
-      width="360"
+      width="390"
       height="290"    
     />  
   </Carousel.Item>
@@ -68,7 +70,7 @@ function SlideShow(){
       className="d-block-center w-40"
       src="images/cover16.jpg"
       alt=""
-      width="360"
+      width="390"
       height="290"    
     />  
   </Carousel.Item>
