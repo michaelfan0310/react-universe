@@ -12,7 +12,7 @@ import ShowCanvas from './components/ShowCanvas.js';
 import Todolist from './components/Todolist.js';
 // import Example from './components/Example';
 import Heading from './components/Heading.js';
-// import Clock from './components/Clock';
+import Clock from './components/Clock.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -27,8 +27,9 @@ function App() {
     <ShowDate />
     <ButtonWrapper />
     <ShowCanvas />
-    <Todolist />
+    <Todolist />    
      <Heading />
+     <Clock />
    
     </div>
   );

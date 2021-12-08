@@ -5,24 +5,15 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+color: whitesmoke;
+font-family:"Mrs Saint Delafield" "Italianno" "Parisienne" sans-serif serif;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-body {
-text-align: center;
-color: whitesmoke;
-margin: 0 ;
-font-family:"Mrs Saint Delafield" "Italianno" "Parisienne" sans-serif serif;
-}
-/* html, body {
-    cursor: url("images/shipCursor.cur"), url("images/faviconSmall.png"), crosshair;
-} */
-
-
 .overlay {
   position: fixed; /* Sit on top of the page content */
   display: none; /* Hidden by default */
