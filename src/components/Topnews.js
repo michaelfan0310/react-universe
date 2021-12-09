@@ -23,11 +23,12 @@ setInterval(getNews,21600000);
 
 
 return(<div>
+     <div id="topnews">
     <h1 id="topnews"><span>T</span>
     <img id="sun-position" src="images/sun.gif" alt="icon" width="3%" />
     <span>pnews Today </span></h1>
     <p>(TechCrunch)</p>
-
+    </div>
       <div class="wrapperText">        
         <h2 id="newstitle1">Better.com CEO Vishal Garg apologizes to current employees for 'blundering' of mass layoffs; SPAC delayed</h2>
         <p id="newstext1" class="newsContent">Better.com CEO Vishal Garg apparently realizes he’s done wrong. (As if the barrage of negative publicity wasn’t enough
