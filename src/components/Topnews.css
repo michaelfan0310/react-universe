@@ -16,6 +16,7 @@ this layer is too low*/
 .wrapperText {
 position: absolute;
 top: 138%;
+left:15%;
 /* border:3px groove #B0C4DE; */
 background: #202030a4;
 text-align: center;

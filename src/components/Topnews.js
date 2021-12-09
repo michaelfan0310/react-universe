@@ -23,7 +23,7 @@ setInterval(getNews,21600000);
 
 
 return(<div>
-     <div id="topnews">
+     <div>
     <h1 id="topnews"><span>T</span>
     <img id="sun-position" src="images/sun.gif" alt="icon" width="3%" />
     <span>pnews Today </span></h1>
