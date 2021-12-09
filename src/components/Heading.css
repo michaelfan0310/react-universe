@@ -1,17 +1,7 @@
-/* 
-#clock {    
-    margin-top: 3%;
-    height:240px;
-    font-size: 13rem;
-    font-family: arial;
-    font-weight: bolder;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: rgba(216, 91, 53, 0.493); */
+
 
 #greeting{
-  position:relative;
+  position:absolute;
   margin-top: 1%;
   /* align-items: center; */
   margin-left: auto;

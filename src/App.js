@@ -8,7 +8,7 @@ import Spaceship from './components/Spaceship.js';
 import SlideShow from './components/SlideShow.js';
 import ButtonWrapper from './components/ButtonWrapper.js';
 import ShowDate from './components/ShowDate.js';
-import ShowCanvas from './components/ShowCanvas.js';
+import Canvas from './components/Canvas.js';
 import Todolist from './components/Todolist.js';
 // import Example from './components/Example';
 import Heading from './components/Heading.js';
@@ -26,7 +26,7 @@ function App() {
     <SlideShow />
     <ShowDate />
     <ButtonWrapper />
-    <ShowCanvas />
+    <Canvas />
     <Todolist />    
      <Heading />
      <Clock />
