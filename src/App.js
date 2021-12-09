@@ -13,6 +13,7 @@ import Todolist from './components/Todolist.js';
 // import Example from './components/Example';
 import Heading from './components/Heading.js';
 import Clock from './components/Clock.js';
+import Topnews from './components/Topnews.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -27,10 +28,11 @@ function App() {
     <ShowDate />
     <ButtonWrapper />
     {/* <Canvas /> */}
+     <Topnews />
     <Todolist />    
      <Heading />
      <Clock />
-   
+     
     </div>
   );
 }
