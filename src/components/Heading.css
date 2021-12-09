@@ -2,10 +2,10 @@
 
 #greeting{
   position:absolute;
-  margin-top: 1%;
+  top: 211%;
   /* align-items: center; */
-  margin-left: auto;
-  margin-right: auto;
+ left: 32%;
+ margin-right: auto;
   font-family: Cambria,cursive;  
   font-size: 5rem;
   font-weight: 800;

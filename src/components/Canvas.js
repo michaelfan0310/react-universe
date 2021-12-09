@@ -52,4 +52,4 @@ function Canvas() {
   return <canvas {...size} ref={canvasRef} />;
 }
 
-export default Canvas;
+// export default Canvas;
