@@ -1,19 +1,27 @@
-import React, {useEffect, useState} from 'react';
+import React, {useState} from 'react';
 import './Clock.css';
 
-
 function Clock(){
-   const[clockState, setClockState] = useState()
 
-   useEffect(()=> {
-      setInterval(()=> {
-         const date=new Date();
-         setClockState(date.toLocaleTimeString('en-GB'));
-      },1000);
-   },[]);
-   
+const now=new Date().toLocaleTimeString('en-GB');
+const [time,setTime]=useState(now);
 
- 
+function updateTime(){
+   const newTime=new Date().toLocaleTimeString('en-GB');
+   setTime(newTime);
+} 
+
+setInterval(updateTime,1000); 
+
+ return(<div>
+      <div id="myClass"></div>   
+      
+      <div id='main-container'>
+      <h2 id='clock'>{time}</h2>
+       
+      </div> 
+   </div>); 
+}
 // const hours = date.getHours();
 
 // const minutes = date.getMinutes();
@@ -27,17 +35,6 @@ function Clock(){
 // const currentTime = addZero(hours) + ":" + addZero(minutes) + ":" + addZero(seconds)      
 
 // setInterval(currentTime,1000);
-
- return(<div>
-      <div id="myClass"></div>   
-      
-      <div id='main-container'>
-      <h2 id='clock'>{clockState}</h2>
-       
-      </div> 
-   </div>); 
-}
-
 
 
 export default Clock;

@@ -4,7 +4,7 @@ import './BackGroundImages.css';
 function BackGroundImages(){
      return (<div>
 <div className="extra1" role="presentation">
-        <img src="images/bg1.jpg" width="100%"  height="102%" alt="bg1"/>
+        <img src="../public/images/bg1.jpg" width="100%"  height="102%" alt="bg1"/>
         {/* <img src="../images/universe6.jpg" width="100%"  alt="bg2"/>
         <img src="../images/universe7.jpg" width="100%"  alt="bg3"/> */}
     </div>
