@@ -1,4 +1,5 @@
-import Button from 'react-bootstrap/Button';
+// import Button from 'react-bootstrap/Button';
+import ExpenseDate from './ExpenseDate';
 import './ShowDate.css';
 
 function ShowDate(){
@@ -15,15 +16,17 @@ weekday[6] = "Saturday";
 
 const TODAY=weekday[d.getDay()];
 
-const date = d.getDate();
+// const date = d.getDate();
 
 
-return(
+return(<div>
     <div className="main-date">
-    <Button variant="dark" id="todate">{date}</Button>{' '}
-            
+    <ExpenseDate />
+    {/* <Button variant="dark" id="todate">{date}</Button>{' '} */}
+    </div>        
     <h2 id="today">{TODAY}</h2>
     </div>
+    
 );
 }
 export default ShowDate;

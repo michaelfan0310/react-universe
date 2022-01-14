@@ -5,4 +5,10 @@
 .main-date{
   position: relative;
   margin-top: -37%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#date1{
+  margin-left: auto;
+  margin-right: auto;
 }

@@ -1,4 +1,5 @@
 import './Topnews.css';
+import sungif from "../images/sun.gif"
 
 function Topnews(){
 const apiKey1='294749526c424fe6bb4feb6f396b4372';
@@ -25,7 +26,7 @@ setInterval(getNews,21600000);
 return(<div>
      <div>
     <h1 id="topnews"><span>T</span>
-    <img id="sun-position" src="images/sun.gif" alt="icon" width="3%" />
+    <img id="sun-position" src={sungif} alt="icon" width="9%" />
     <span>pnews Today </span></h1>
     <p>(TechCrunch)</p>
     </div>

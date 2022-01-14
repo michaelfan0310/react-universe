@@ -1,5 +1,6 @@
 import Button from 'react-bootstrap/Button';
 import './Navbar.css';
+import favsmall from "../images/faviconSmall.png" ;
 
 function Navbar(){
     return(
@@ -8,7 +9,7 @@ function Navbar(){
 
     <div className="container">
       <a className="navbar-brand cursor " href="https://polar-escarpment-84617.herokuapp.com/"><img id="faviconSmall"
-          src="images/faviconSmall.png" alt="icon" width="40px" height="24px" />Michael's Blog</a>
+          src={favsmall} alt="icon" width="40px" height="24px" />Michael's Blog</a>
       <Button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
         data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
         aria-label="Toggle navigation">
