@@ -8,7 +8,7 @@ import Spaceship from './components/Spaceship.js';
 import SlideShow from './components/SlideShow.js';
 import ButtonWrapper from './components/ButtonWrapper.js';
 
-import ExpenseDate from './components/ExpenseDate.js';
+// import ExpenseDate from './components/ExpenseDate.js';
 
 import ShowDate from './components/ShowDate.js';
 // import Canvas from './components/Canvas.js';
