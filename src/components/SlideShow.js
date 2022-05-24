@@ -15,53 +15,53 @@ function SlideShow(){
 <Carousel.Item interval={3500}>
     <img
       className="d-block-center w-60"     
-      src={cover8} alt="cover1" width="590" height="290"      
+      src={cover8} alt="cover1" width='36%' height='30%'  
     />    
   </Carousel.Item> 
  <Carousel.Item interval={3000}>
     <img
       className="d-block-center w-60"     
-      src={cover7} alt="cover1" width="590" height="290"      
+      src={cover7} alt="cover1" width='36%' height='30%'  
     />    
   </Carousel.Item> 
   
   <Carousel.Item interval={2500}>
     <img
       className="d-block-center w-60"     
-      src={cover1} alt="cover1" width="590" height="290"      
+      src={cover1} alt="cover1" width='36%' height='30%'  
     />    
   </Carousel.Item>  
 
  <Carousel.Item interval={2000}>
     <img
       className="d-block-center w-60"
-     src={cover2} alt="cover2" width="590" height="290"     
+     src={cover2} alt="cover2" width='36%' height='30%' 
     />  
   </Carousel.Item>
 
   <Carousel.Item interval={1500}>
     <img
       className="d-block-center w-60"     
-      src={cover3} alt="cover1" width="590" height="290"         
+      src={cover3} alt="cover1" width='36%' height='30%'     
     />   
   </Carousel.Item>
 
   <Carousel.Item interval={1000}>
    <img
       className="d-block-center w-60"     
-      src={cover4} alt="cover1" width="590" height="290"         
+      src={cover4} alt="cover1" width='36%' height='30%'     
     />    
   </Carousel.Item>
   <Carousel.Item interval={500}>
    <img
       className="d-block-center w-60"     
-      src={cover5} alt="cover1" width="590" height="290"         
+      src={cover5} alt="cover1" width='36%' height='30%'     
     />   
   </Carousel.Item>
    <Carousel.Item >
     <img
       className="d-block-center w-60"     
-      src={cover6} alt="cover1" width="590" height="290"         
+      src={cover6} alt="cover1" width='36%' height='30%'     
     />   
   </Carousel.Item>
 
