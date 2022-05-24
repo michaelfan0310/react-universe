@@ -7,11 +7,11 @@ import Title from './components/Title.js';
 import Spaceship from './components/Spaceship.js';
 import SlideShow from './components/SlideShow.js';
 import ButtonWrapper from './components/ButtonWrapper.js';
-
+import Iss from './components/Iss.js';
 // import ExpenseDate from './components/ExpenseDate.js';
-
-import ShowDate from './components/ShowDate.js';
 // import Canvas from './components/Canvas.js';
+import ShowDate from './components/ShowDate.js';
+// import Weather from './components/Weather.js';
 import Todolist from './components/Todolist.js';
 // import Example from './components/Example';
 import Heading from './components/Heading.js';
@@ -27,11 +27,13 @@ function App() {
       <Navbar />
       <Title />
      <Spaceship />
+     <Iss />
     <SlideShow />
 
     {/* <ExpenseDate /> */}
 
     <ShowDate />
+    {/* <Weather /> */}
     <ButtonWrapper />
     {/* <Canvas /> */}
      <Topnews />

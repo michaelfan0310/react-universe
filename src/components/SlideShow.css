@@ -2,8 +2,8 @@
 
 
 .slide1{
-    position: relative;
-    margin-top: -26%;
+    position: absolute;
+    margin-top: 28%;
     
 }
 .carousel-control-prev
@@ -17,4 +17,15 @@
     color: rgba(245, 242, 242, 0);
     position: absolute;
     z-index: -99;
+}
+.carousel-control-next-icon,
+ .carousel-control-prev-iconn {
+      width: 0.1rem;
+      height: 0.1rem;
+      counter-reset: rgba(0, 0, 0, 0.021);
+ }
+@media only screen and (max-width:1300px){
+    .slide1{
+        margin-top: 23%;
+    }
 }

@@ -2,9 +2,9 @@
 #clock {    
     position: absolute;
     top: 233%;
-    left: 25%;
+    left: 26%;
     height:240px;
-    font-size: 13rem;
+    font-size: 15rem;
     font-family: arial;
     font-weight: bolder;
     display: flex;
@@ -54,7 +54,7 @@
 #clock {
     margin-top: 26%;
     height:10px;
-    font-size: 35px;
+    font-size: 40px;
     font-family: arial;
     font-weight: normal;
     display: flex;

@@ -2,13 +2,13 @@
 
 #greeting{
   position:absolute;
-  top: 211%;
+  top: 221%;
   /* align-items: center; */
- left: 32%;
+ left: 30%;
  margin-right: auto;
   font-family: Cambria,cursive;  
-  font-size: 5rem;
-  font-weight: 800;
+  font-size: 3.5rem;
+  font-weight: 700;
   color:rgba(122, 52, 6, 0.178);
   text-shadow: 0px 2px #e730238c;   
 }

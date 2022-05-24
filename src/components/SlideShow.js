@@ -6,16 +6,24 @@ import cover3 from "../images/cover7.jpg";
 import cover4 from "../images/cover10.jpg";
 import cover5 from "../images/cover6.png";
 import cover6 from "../images/cover9.png";
-
+import cover7 from "../images/postevening.gif";
+import cover8 from "../images/cover15.jpg";
 function SlideShow(){
-  // const slides= new Array(3);
-  //     slides[0]="images/cover2.jpg";
-  //     slides[1]="images/cover4.jpg";
-  //     slides[2]="images/cover5.jpg";
-  // const slidesItem=slides.map(slides[id].scale*1.2);
-      
+        
      return (<div>
 <Carousel fade className="slide1">
+<Carousel.Item interval={3500}>
+    <img
+      className="d-block-center w-60"     
+      src={cover8} alt="cover1" width="590" height="290"      
+    />    
+  </Carousel.Item> 
+ <Carousel.Item interval={3000}>
+    <img
+      className="d-block-center w-60"     
+      src={cover7} alt="cover1" width="590" height="290"      
+    />    
+  </Carousel.Item> 
   
   <Carousel.Item interval={2500}>
     <img

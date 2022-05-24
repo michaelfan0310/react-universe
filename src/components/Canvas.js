@@ -1,55 +1,99 @@
-import "./canvas.css";
-import { useRef, useEffect } from "react";
-import frameRenderer from "./frameRenderer";
+// import "./Canvas.css";
+
+// import frameRenderer from "./frameRenderer";
 
 function Canvas() {
-  const canvasRef = useRef(null);
-  const requestIdRef = useRef(null);
-  const ballRef = useRef({ x: 50, y: 50, vx: 3.9, vy: 3.3, radius: 20 });
-  const size = { width: 400, height: 250 };
+  // var sketchProc = function (processingInstance) {
+    
+  //       var canvas = document.querySelector('#mycanvas');
+  //       var c = canvas.getContext('2d');
 
-  const updateBall = () => {
-    const ball = ballRef.current;
-    ball.x += ball.vx;
-    ball.y += ball.vy;
-    if (ball.x + ball.radius >= size.width) {
-      ball.vx = -ball.vx;
-      ball.x = size.width - ball.radius;
-    }
-    if (ball.x - ball.radius <= 0) {
-      ball.vx = -ball.vx;
-      ball.x = ball.radius;
-    }
-    if (ball.y + ball.radius >= size.height) {
-      ball.vy = -ball.vy;
-      ball.y = size.height - ball.radius;
-    }
-    if (ball.y - ball.radius <= 0) {
-      ball.vy = -ball.vy;
-      ball.y = ball.radius;
-    }
-  };
+  //       canvas.width = window.innerWidth;
+  //       canvas.height = window.innerHeight;
 
-  const renderFrame = () => {
-    const ctx = canvasRef.current.getContext("2d");
-    updateBall();
-    frameRenderer.call(ctx, size, ballRef.current);
-  };
+  //       with (processingInstance) {
 
-  const tick = () => {
-    if (!canvasRef.current) return;
-    renderFrame();
-    requestIdRef.current = requestAnimationFrame(tick);
-  };
+  //       size(canvas.width, canvas.height);
+  //       frameRate(30);
+  
+ 
+//shooting stars with PVectors
+//Click to make more!
 
-  useEffect(() => {
-    requestIdRef.current = requestAnimationFrame(tick);
-    return () => {
-      cancelAnimationFrame(requestIdRef.current);
+
+
+var t = 0;
+
+var shootingStar = function(x,y){
+    this.position = new PVector(x,y);
+    this.velocity = new PVector(0,2);
+    this.acceleration = new PVector(random(-0.2,-0.3),random(0.8,1));
+    this.size = 2;
+    this.speed = random(1,2);
+    this.draw = function() {
+        noStroke();
+        fill(255, 255, 255,1);
+        ellipse(this.position.x,this.position.y,this.size,this.size);
     };
-  }, []);
+    this.update=function(){
+        this.size+=0.04;
+        this.velocity.add(this.acceleration);
+        this.position.add(this.velocity);
+      
+        
+    };
+};
+var stars = [];
+stars.add = function(x,y){
+    stars.push( new shootingStar(x,y));
+};
+stars.draw= function() {
+    for(var i=0;i<stars.length;i++){
+        stars[i].draw();
+        stars[i].update();
+    }
+};
 
-  return <canvas {...size} ref={canvasRef} />;
+// mouseClicked = function(){
+//     stars.add(mouseX, mouseY);
+//   };
+var dots = [];
+// background(22, 13, 153, 0.096);
+
+var draw = function() {
+    background(0, 99, 233, 3);
+if(stars.length>500){//this reduces the lagging
+    stars.shift();
 }
+    t++;
+    if(t%60===20){
+        stars.add(random(0,1000),random(-100,0));
+        stars.add(random(0,1000),random(-100,0));
+        stars.add(random(400,500),random(200));
+    }
+    
+    stars.draw();
+    // fill(0, 4, 84);
+    
+
+ for(var i=0;i<200;i++){
+     stroke(255, 255, 255);
+     strokeWeight(random(0.9,3.5));
+     point(random(width),random(height));
+ }
+};    
+
+    
+
+
+
+// Get the canvas that Processing-js will use
+var canvas = document.getElementById("mycanvas");
+canvas.width = window.innerWidth;
+// Pass the function sketchProc (defined in myCode.js) to Processing's constructor.
+var processingInstance = new Processing(canvas, sketchProc);
+  
+  return <canvas id="mycanvas" ></canvas>;
+};
 
 // export default Canvas;

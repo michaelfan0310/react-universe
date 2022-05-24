@@ -26,23 +26,23 @@ function BackGroundImages(){
           setImage(bk6);}
      else{setImage(bk3);  }
      },1000);
-     
+
 return (<div>
-     console.log(time);
+     
 <div className="extra1" role="presentation">
-        <img src={bk1} width="100%"  height="102%" alt="bk1"/>    
+        <img src={bk1} width="100%" height="100%" alt="bk1"/>    
       </div>
 
     <div className="extra2" role="presentation">
-        <img src={bk2} width="100%" height="102%" alt="bk2"/> 
+        <img src={bk2} width="100%" height="100%" alt="bk2"/> 
     </div>
 
     <div className="extra3" role="presentation">
-       <img src={image} width="100%" height="107%"  alt="bk2"/>
+       <img src={image} width="100%"  height="100%" alt="bk3"/>
     </div>
 
     <div className="extra4" role="presentation">
-         <img src={bk4} width="100%" height="102%" alt="bk2"/>
+         <img src={bk4} width="100%"  height="100%" alt="bk4"/>
     </div>   
 
 

@@ -23,6 +23,7 @@ function Heading(){
         amentStyle.fontSize='8rem';
    } else if (hours < 23 && hours >= 18){
         text1 = "Good Evening";
+        amentStyle.color="blue";
    } else  {
         text1 = "Good Night";}
 

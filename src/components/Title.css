@@ -1,6 +1,6 @@
 .titleWrap {
-  position: relative;
-  margin-top: -6%;
+  position: absolute;
+  margin-top: -13%;
   z-index: 5;
 }
 .overlay {
@@ -34,4 +34,9 @@
   font-size: 1.8rem;
   text-shadow: rgb(1, 41, 37);
   text-rendering:auto;
+}
+@media only screen and (max-width:1300px){
+   .titleWrap{ 
+        margin-top: -17%;
+   }
 }

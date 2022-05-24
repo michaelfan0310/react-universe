@@ -1,0 +1,44 @@
+/* #sun-positon{
+  position:relative;
+  z-index: -1;
+  bottom: 50px;  
+} */
+#outer-orbit{
+    width: 194px;
+  height: 113px;
+}
+
+#IssPosition1, #IssPosition2{
+ 
+  position: relative;
+  margin-top: 0 0;
+  padding-top: 0 0;
+    top: 205%;
+    left: 2%;
+    font-size: 0.8rem;
+    color: white;
+    text-shadow: 1px 1px #0116125d;
+    transform: rotate(180deg);
+    /* background-color: #01161250; */
+    line-height: 0.01rem;    
+    }
+
+#Iss-box {
+  display: block;
+   position: absolute;
+    top: 185%;
+    left: -17%;
+   
+  border-radius: 50%;
+    z-index: 3;
+  
+  animation: orbit2 95s linear infinite;
+}
+
+
+@keyframes orbit2 {
+  0% {
+      transform: rotateZ(190deg) translatey(1090px); }
+  
+    100% {
+      transform: rotateZ(230deg) translatey(1590px); } }
