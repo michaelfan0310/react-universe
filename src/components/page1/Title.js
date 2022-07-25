@@ -1,5 +1,5 @@
 import './Title.css';
-import favicon from "../images/favicon.png";
+import favicon from "../../images/favicon.png";
 
 function Title(){
     return(<div className='titleWrap'>

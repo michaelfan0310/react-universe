@@ -1,16 +1,18 @@
 import Carousel from 'react-bootstrap/Carousel';
 import './SlideShow.css';
-import cover1 from "../images/RosettaStone.jpg";
-import cover2 from "../images/cover11.jpg";
-import cover3 from "../images/cover7.jpg";
-import cover4 from "../images/cover10.jpg";
-import cover5 from "../images/cover6.png";
-import cover6 from "../images/cover9.png";
-import cover7 from "../images/postevening.gif";
-import cover8 from "../images/cover15.jpg";
-function SlideShow(){
+import cover1 from "../../images/RosettaStone.jpg";
+import cover2 from "../../images/cover11.jpg";
+import cover3 from "../../images/cover7.jpg";
+import cover4 from "../../images/cover10.jpg";
+import cover5 from "../../images/cover6.png";
+import cover6 from "../../images/cover9.png";
+import cover7 from "../../images/postevening.gif";
+import cover8 from "../../images/cover15.jpg";
+import { Component } from 'react';
+class SlideShow extends Component {
         
-     return (<div>
+  render() {
+   return  (<div>
 <Carousel fade className="slide1">
 <Carousel.Item interval={3500}>
     <img
@@ -66,6 +68,7 @@ function SlideShow(){
   </Carousel.Item>
 
   </Carousel> 
-  </div>);}
-
+  </div>)
+  }
+}
 export default SlideShow

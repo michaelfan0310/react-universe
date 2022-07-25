@@ -2,8 +2,7 @@ import Button from 'react-bootstrap/Button';
 import './ButtonWrapper.css';
 
 function ButtonWrapper(){
-return(<div className="buttonWrapper">
-      
+return(<div className="buttonWrapper">      
 
   
   <Button variant="outline-success" href="https://michaelfan0310.github.io/travel/videoWeb.html">Travel</Button>{' '}

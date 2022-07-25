@@ -1,5 +1,5 @@
 import './Topnews.css';
-import sungif from "../images/sun.gif"
+import sungif from "../../images/sun.gif"
 
 function Topnews(){
   // eslint-disable-next-line 
@@ -33,7 +33,7 @@ return(<div>
     </div>
       <div className="wrapperText">        
         <h2 id="newstitle1">Better.com CEO Vishal Garg apologizes to current employees for 'blundering' of mass layoffs; SPAC delayed</h2>
-        <p id="newstext1" class="newsContent">Better.com CEO Vishal Garg apparently realizes he’s done wrong. (As if the barrage of negative publicity wasn’t enough
+        <p id="newstext1" className="newsContent">Better.com CEO Vishal Garg apparently realizes he’s done wrong. (As if the barrage of negative publicity wasn’t enough
         evidence of that ). Today, a letter to current employees was leaked on Blind by a verified Better employee. In the
         letter, Garg apologized f…
         </p>

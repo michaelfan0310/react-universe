@@ -1,8 +1,8 @@
 
 import './Spaceship.css';
-import spaceship1 from "../images/spaceship1.png";
-import spaceship5 from "../images/spaceship5.png";
-import spaceship6 from "../images/shipCursor.png";
+import spaceship1 from "../../images/spaceship1.png";
+import spaceship5 from "../../images/spaceship5.png";
+import spaceship6 from "../../images/shipCursor.png";
 
 function Spaceship(){
 

@@ -1,12 +1,12 @@
 import React, {useState} from 'react';
 // import time from './Clock.js';
 import './BackGroundImages.css';
-import bk1 from "../images/bg1.jpg";
-import bk2 from "../images/bg2.jpg";
-import bk3 from "../images/bg3.jpg";
-import bk4 from "../images/bg4.jpg";
-import bk5 from '../images/postAfternoon2-bg.jpg';
-import bk6 from '../images/bg6.jpg'
+import bk1 from "../../images/bg1.jpg";
+import bk2 from "../../images/bg2.jpg";
+import bk3 from "../../images/bg3.jpg";
+import bk4 from "../../images/bg4.jpg";
+import bk5 from '../../images/postAfternoon2-bg.jpg';
+import bk6 from '../../images/bg6.jpg'
 // eslint-disable-next-line 
      
 

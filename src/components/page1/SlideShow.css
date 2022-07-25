@@ -1,0 +1,46 @@
+
+
+.carousel-indicators, .active{
+    opacity:0
+}
+.carousel-indicators, button{
+    opacity:0
+}
+
+.carousel-control-prev, .active
+.carousel-control-next, .active
+.carousel-control-next button{
+    opacity:0
+}
+.slide1{
+    position: absolute;
+    margin-top: 15%;
+    
+}
+
+.carousel-control-prev
+.carousel-control-next
+.carousel-control-next-icon,
+ .carousel-control-prev-icon,
+  .carousel-indicators{
+    position: absolute;
+    z-index: -10;
+    display:unset;
+    color: rgba(17, 17, 17, 0);
+    /* background-color: black; */
+    position: absolute;
+    z-index: -99;
+    width: 0.1px;
+      height: 0.1px;
+}
+.carousel-control-next-icon, button
+ .carousel-control-prev-iconn, button{
+      width: 0.1px;
+      height: 0.1px;
+      counter-reset: rgba(0, 0, 0, 0);
+ }
+@media only screen and (max-width:1300px){
+    .slide1{
+        margin-top: 23%;
+    }
+}

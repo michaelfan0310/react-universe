@@ -1,5 +1,5 @@
 import './Iss.css';
-import isspic from "../images/iss.png";
+import isspic from "../../images/iss.png";
 
 function Iss(){
     const api_iss_url="https://api.wheretheiss.at/v1/satellites/25544";
@@ -18,7 +18,7 @@ async function getIss(){
 return (<div id="Iss-box">
 <p id="IssPosition2" value="9&#176;">1</p>
 <p id="IssPosition1" value="9&#176;">2</p>
-<img src={isspic} alt="iss" width="15%" id="outer-orbit" class="orbitIss" />
+<img src={isspic} alt="iss" width="15%" id="outer-orbit" className="orbitIss" />
 </div>
     );
 }

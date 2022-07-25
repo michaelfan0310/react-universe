@@ -29,11 +29,12 @@
 
 .subheading {
   position:relative;
-  color: whitesmoke;
-  font-weight: 300;
+  color: rgba(245, 245, 245, 0.722);
+  font-weight: 400;
   font-size: 1.8rem;
   text-shadow: rgb(1, 41, 37);
   text-rendering:auto;
+  padding-top: -235%;
 }
 @media only screen and (max-width:1300px){
    .titleWrap{ 
