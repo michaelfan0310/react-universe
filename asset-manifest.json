@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/react-universe/static/css/main.9fbacb67.chunk.css",
-    "main.js": "/react-universe/static/js/main.b858b567.chunk.js",
-    "main.js.map": "/react-universe/static/js/main.b858b567.chunk.js.map",
-    "runtime-main.js": "/react-universe/static/js/runtime-main.b794fbee.js",
-    "runtime-main.js.map": "/react-universe/static/js/runtime-main.b794fbee.js.map",
+    "main.css": "/react-universe/static/css/main.bf9ccae5.chunk.css",
+    "main.js": "/react-universe/static/js/main.855de02a.chunk.js",
+    "main.js.map": "/react-universe/static/js/main.855de02a.chunk.js.map",
+    "runtime-main.js": "/react-universe/static/js/runtime-main.72a897d1.js",
+    "runtime-main.js.map": "/react-universe/static/js/runtime-main.72a897d1.js.map",
     "static/css/2.4be38407.chunk.css": "/react-universe/static/css/2.4be38407.chunk.css",
-    "static/js/2.b5178483.chunk.js": "/react-universe/static/js/2.b5178483.chunk.js",
-    "static/js/2.b5178483.chunk.js.map": "/react-universe/static/js/2.b5178483.chunk.js.map",
-    "static/js/3.7106c729.chunk.js": "/react-universe/static/js/3.7106c729.chunk.js",
-    "static/js/3.7106c729.chunk.js.map": "/react-universe/static/js/3.7106c729.chunk.js.map",
+    "static/js/2.ff8fda8b.chunk.js": "/react-universe/static/js/2.ff8fda8b.chunk.js",
+    "static/js/2.ff8fda8b.chunk.js.map": "/react-universe/static/js/2.ff8fda8b.chunk.js.map",
+    "static/js/3.8d2b2af9.chunk.js": "/react-universe/static/js/3.8d2b2af9.chunk.js",
+    "static/js/3.8d2b2af9.chunk.js.map": "/react-universe/static/js/3.8d2b2af9.chunk.js.map",
     "index.html": "/react-universe/index.html",
     "static/css/2.4be38407.chunk.css.map": "/react-universe/static/css/2.4be38407.chunk.css.map",
-    "static/css/main.9fbacb67.chunk.css.map": "/react-universe/static/css/main.9fbacb67.chunk.css.map",
-    "static/js/2.b5178483.chunk.js.LICENSE.txt": "/react-universe/static/js/2.b5178483.chunk.js.LICENSE.txt",
+    "static/css/main.bf9ccae5.chunk.css.map": "/react-universe/static/css/main.bf9ccae5.chunk.css.map",
+    "static/js/2.ff8fda8b.chunk.js.LICENSE.txt": "/react-universe/static/js/2.ff8fda8b.chunk.js.LICENSE.txt",
     "static/media/RosettaStone.c80bd91c.jpg": "/react-universe/static/media/RosettaStone.c80bd91c.jpg",
     "static/media/bg1.7b85cd8d.jpg": "/react-universe/static/media/bg1.7b85cd8d.jpg",
     "static/media/bg2.a54fc45d.jpg": "/react-universe/static/media/bg2.a54fc45d.jpg",
@@ -36,10 +36,10 @@
     "static/media/sun.20c26ef8.gif": "/react-universe/static/media/sun.20c26ef8.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.b794fbee.js",
+    "static/js/runtime-main.72a897d1.js",
     "static/css/2.4be38407.chunk.css",
-    "static/js/2.b5178483.chunk.js",
-    "static/css/main.9fbacb67.chunk.css",
-    "static/js/main.b858b567.chunk.js"
+    "static/js/2.ff8fda8b.chunk.js",
+    "static/css/main.bf9ccae5.chunk.css",
+    "static/js/main.855de02a.chunk.js"
   ]
 }
